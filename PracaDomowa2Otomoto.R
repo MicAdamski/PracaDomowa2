@@ -66,6 +66,6 @@ for(w in 1: length(wektorLinkowU)){
     #View(passaty)
   }
 }
-View(passaty)
+#View(passaty)
 write.csv(passaty,paste0(getwd(), "/passaty.csv"), row.names = FALSE)
 
